@@ -11,8 +11,8 @@ import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
 
 
-app = JupyterDash(__name__)
-
+app = Dash(__name__)
+server = app.server
 
 # In[16]:
 
