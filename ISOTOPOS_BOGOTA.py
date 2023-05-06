@@ -15,10 +15,10 @@ server = app.server
 
 # In[16]:
 
-
+my_dataset= "https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Resultados_feb.csv"
 # -- Import and clean data (importing csv into pandas)
 # df = pd.read_csv("intro_bees.csv")
-df = pd.read_csv("Resultados_feb.csv")
+df = pd.read_csv(my_dataset)
 
 #df = df.groupby(['Tipo', 'Fecha', 'Nombre', 'Nombre2', 'd2H', 'd18O', 'Tipo', 'd-excess', 'Mes'])
 #df.reset_index(inplace=True)
