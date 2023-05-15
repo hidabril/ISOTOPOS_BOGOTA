@@ -270,4 +270,4 @@ def update_graph(option_slctd,option_slctd2,option_slctd3):
     return container, fig, containerd2H, containerd18O, containerdexcess
 
 if __name__ == '__main__':
-    app.run()
+    app.run_server()
