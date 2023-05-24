@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 
 
 app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Mapbox configuration
 mapbox_access_token = "pk.eyJ1IjoiYWJyaWxoaWQiLCJhIjoiY2xoY3J5dnlpMHU0ajNtbXR1MW80cHd0aiJ9.4D2V1tHsx7FS8HFveyaz1Q"
 mapbox_style = "mapbox://styles/mapbox/streets-v12"
@@ -310,4 +310,4 @@ def update_graph(option_slctd,option_slctd2,):
     return container, fig, containerd2H, containerd18O, containerdexcess
 
 if __name__ == '__main__':
-    app.run()
+    app.run_server()
