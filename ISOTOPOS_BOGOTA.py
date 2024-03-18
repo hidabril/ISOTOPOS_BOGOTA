@@ -13,7 +13,7 @@ server = app.server
 mapbox_access_token = "pk.eyJ1IjoiYWJyaWxoaWQiLCJhIjoiY2xoY3J5dnlpMHU0ajNtbXR1MW80cHd0aiJ9.4D2V1tHsx7FS8HFveyaz1Q"
 mapbox_style = "mapbox://styles/mapbox/outdoors-v12"
 # Dataset URL
-my_dataset = "https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA_SUB/main/Base_PGW_FULL.csv"
+my_dataset = "https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Base_PGW_FULL.csv"
 
 # Read data
 df = pd.read_csv(my_dataset)
@@ -124,7 +124,7 @@ app.layout = html.Div(children=[
                                             "Ver código en Github",
                                             outline=True,
                                             color="primary",
-                                            href="https://github.com/hidabril/ISOTOPOS_BOGOTA_SUB",
+                                            href="https://github.com/hidabril/ISOTOPOS_BOGOTA",
                                             id="gh-link",
                                             style={"text-transform": "none"},
                                         ),
