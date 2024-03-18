@@ -13,7 +13,7 @@ mapbox_style = "mapbox://styles/mapbox/streets-v12"
 
 
 #Data
-my_dataset = "https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Resultados_mar2.csv"
+my_dataset = "https://raw.githubusercontent.com/hidabril/ISOTOPOS_BOGOTA/main/Resultados_campus.csv"
 
 df = pd.read_csv(my_dataset)
 df["Fecha"] = pd.to_datetime(df["Fecha"])
